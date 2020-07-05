@@ -15,40 +15,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nXg-vr-Xwm">
-                                <rect key="frame" x="162" y="395" width="90" height="106"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="54" translatesAutoresizingMaskIntoConstraints="NO" id="nXg-vr-Xwm">
+                                <rect key="frame" x="162" y="349" width="90" height="198"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgI-Im-FTA">
                                         <rect key="frame" x="0.0" y="0.0" width="35" height="30"/>
                                         <state key="normal" title="Rock"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btg-cl-i55">
-                                        <rect key="frame" x="0.0" y="38" width="90" height="30"/>
+                                        <rect key="frame" x="0.0" y="84" width="90" height="30"/>
                                         <state key="normal" title="Hip-Hop/Rap"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raR-wY-jDK">
-                                        <rect key="frame" x="0.0" y="76" width="74" height="30"/>
+                                        <rect key="frame" x="0.0" y="168" width="74" height="30"/>
                                         <state key="normal" title="Alternative"/>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDr-Mp-HEq">
-                                <rect key="frame" x="50" y="543" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STj-6j-JLh">
-                                <rect key="frame" x="306" y="543" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="STj-6j-JLh" firstAttribute="leading" secondItem="GDr-Mp-HEq" secondAttribute="trailing" constant="40" id="S5a-RH-exq"/>
                             <constraint firstItem="nXg-vr-Xwm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Xoj-ss-icc"/>
-                            <constraint firstItem="GDr-Mp-HEq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="ayI-vn-4ha"/>
-                            <constraint firstItem="STj-6j-JLh" firstAttribute="leading" secondItem="GDr-Mp-HEq" secondAttribute="trailing" constant="40" id="hWk-aC-0lX"/>
                             <constraint firstItem="nXg-vr-Xwm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kLa-EW-VZk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="STj-6j-JLh" secondAttribute="trailing" constant="50" id="s31-B3-Knj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
