@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2DA13124B27962001AB2D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2DA13024B27962001AB2D6 /* SceneDelegate.swift */; };
 		1A953F8824B14FAA008ADFC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A953F8724B14FAA008ADFC3 /* AppDelegate.swift */; };
 		1A953F8E24B14FAC008ADFC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A953F8D24B14FAC008ADFC3 /* Assets.xcassets */; };
 		1A953F9124B14FAC008ADFC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A953F9024B14FAC008ADFC3 /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2DA13024B27962001AB2D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../.Trash/SceneDelegate.swift; sourceTree = "<group>"; };
 		1A953F8424B14FAA008ADFC3 /* musicShuffler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicShuffler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A953F8724B14FAA008ADFC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A953F8D24B14FAC008ADFC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				1A953F8724B14FAA008ADFC3 /* AppDelegate.swift */,
+				1A2DA13024B27962001AB2D6 /* SceneDelegate.swift */,
 				1A953F9224B14FAC008ADFC3 /* Main.storyboard */,
 				1A953F9B24B26753008ADFC3 /* GenreButtonScreen.swift */,
 				1A953F8D24B14FAC008ADFC3 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				1A953F8824B14FAA008ADFC3 /* AppDelegate.swift in Sources */,
 				1A953F9C24B26753008ADFC3 /* GenreButtonScreen.swift in Sources */,
+				1A2DA13124B27962001AB2D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

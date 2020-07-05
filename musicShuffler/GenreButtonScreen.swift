@@ -39,5 +39,5 @@ class GenreButtonScreen: UIViewController {
         musicPlayer.shuffleMode = .songs
         musicPlayer.play()
     }
-    
+   
 }
