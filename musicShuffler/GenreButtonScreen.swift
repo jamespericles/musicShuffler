@@ -9,19 +9,22 @@ class GenreButtonScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      
     }
     
     @IBAction func genraButtonTapped(_ sender: UIButton) {
-        playGenre(genre: sender.currentTitle!)
+        MPMediaLibrary.requestAuthorization { (status) in
+            if status == .authorized {
+                self.playGenre(genre: sender.currentTitle!)
+            }
+        }
     }
     
     @IBAction func stopButtonTapped(_ sender: UIButton) {
-        playGenre(genre: sender.currentTitle!)
+        musicPlayer.stop()
     }
     
     @IBAction func nextButtonTapped(_ sender: UIButton) {
-        playGenre(genre: sender.currentTitle!)
+        musicPlayer.skipToNextItem()
     }
     
     func playGenre(genre: String) {
