@@ -59,23 +59,23 @@
                                     <constraint firstAttribute="height" constant="300" id="o9z-qf-NIf"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVd-6s-v6s">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVd-6s-v6s">
                                 <rect key="frame" x="77" y="612" width="120" height="60"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="DfM-MJ-dbF"/>
-                                    <constraint firstAttribute="width" constant="260" id="aBS-fH-flK"/>
+                                    <constraint firstAttribute="width" constant="120" id="xO5-ti-Ua5"/>
                                 </constraints>
                                 <state key="normal" title="Stop">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYu-Xt-v4X">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYu-Xt-v4X">
                                 <rect key="frame" x="217" y="612" width="120" height="60"/>
                                 <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="757-HN-HLt"/>
-                                    <constraint firstAttribute="width" constant="260" id="Yor-AW-nYl"/>
+                                    <constraint firstAttribute="width" constant="120" id="s96-vv-xWT"/>
                                 </constraints>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -94,7 +94,11 @@
                             <constraint firstItem="nXg-vr-Xwm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="8hx-B5-ahJ"/>
                             <constraint firstItem="nXg-vr-Xwm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="Xoj-ss-icc"/>
                             <constraint firstItem="nXg-vr-Xwm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="blO-mr-GmC"/>
+                            <constraint firstItem="aYu-Xt-v4X" firstAttribute="trailing" secondItem="nXg-vr-Xwm" secondAttribute="trailing" id="fXy-ZH-esU"/>
+                            <constraint firstItem="VVd-6s-v6s" firstAttribute="top" secondItem="nXg-vr-Xwm" secondAttribute="bottom" constant="64" id="jkN-Zo-PoT"/>
                             <constraint firstItem="nXg-vr-Xwm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kLa-EW-VZk"/>
+                            <constraint firstItem="VVd-6s-v6s" firstAttribute="leading" secondItem="nXg-vr-Xwm" secondAttribute="leading" id="lLN-OS-UlU"/>
+                            <constraint firstItem="aYu-Xt-v4X" firstAttribute="top" secondItem="nXg-vr-Xwm" secondAttribute="bottom" constant="64" id="vjt-gK-TI8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
