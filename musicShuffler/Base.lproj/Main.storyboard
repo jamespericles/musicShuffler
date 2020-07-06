@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -7,121 +7,123 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Genre Button Screen-->
-        <scene sceneID="EHf-IW-A2E">
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="01J-lp-oVM" customClass="GenreButtonScreen" customModule="Music_Shuffler_Pt__2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3" customClass="UIActionSheet">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="otherMusicShuffler" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="54" translatesAutoresizingMaskIntoConstraints="NO" id="nXg-vr-Xwm">
-                                <rect key="frame" x="77" y="248" width="260" height="300"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgI-Im-FTA">
-                                        <rect key="frame" x="0.0" y="0.0" width="260" height="60"/>
-                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="o5s-ef-fR0"/>
-                                            <constraint firstAttribute="width" constant="260" id="pnj-Mb-Dgz"/>
-                                        </constraints>
-                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                        <state key="normal" title="Rock">
-                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                            <color key="titleShadowColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="genraButtonTapped:" destination="01J-lp-oVM" eventType="touchUpInside" id="6xd-mn-Z5f"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btg-cl-i55">
-                                        <rect key="frame" x="0.0" y="120" width="260" height="60"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="260" id="Jn9-R0-EYo"/>
-                                            <constraint firstAttribute="height" constant="60" id="xl2-e0-yb4"/>
-                                        </constraints>
-                                        <state key="normal" title="Hip-Hop/Rap">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="genraButtonTapped:" destination="01J-lp-oVM" eventType="touchUpInside" id="ss9-XN-HTm"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raR-wY-jDK">
-                                        <rect key="frame" x="0.0" y="240" width="260" height="60"/>
-                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="260" id="484-1Q-CME"/>
-                                            <constraint firstAttribute="height" constant="60" id="U4W-bQ-v4z"/>
-                                        </constraints>
-                                        <state key="normal" title="Alternative">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="genraButtonTapped:" destination="01J-lp-oVM" eventType="touchUpInside" id="YIG-8g-G9M"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="260" id="BmD-5Y-XeS"/>
-                                    <constraint firstAttribute="height" constant="300" id="o9z-qf-NIf"/>
-                                </constraints>
-                            </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVd-6s-v6s">
-                                <rect key="frame" x="77" y="612" width="120" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music Shuffler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gg3-Ui-u0T">
+                                <rect key="frame" x="117" y="165" width="180" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzY-eI-56Z">
+                                <rect key="frame" x="33" y="670" width="150" height="30"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="DfM-MJ-dbF"/>
-                                    <constraint firstAttribute="width" constant="120" id="xO5-ti-Ua5"/>
+                                    <constraint firstAttribute="width" constant="150" id="WLv-vu-W81"/>
                                 </constraints>
                                 <state key="normal" title="Stop">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="stopButtonTapped:" destination="01J-lp-oVM" eventType="touchUpInside" id="efY-99-Joc"/>
+                                    <action selector="stopButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wVm-sf-Vrw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYu-Xt-v4X">
-                                <rect key="frame" x="217" y="612" width="120" height="60"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndJ-p4-HCf">
+                                <rect key="frame" x="231" y="670" width="150" height="30"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="757-HN-HLt"/>
-                                    <constraint firstAttribute="width" constant="120" id="s96-vv-xWT"/>
+                                    <constraint firstAttribute="width" constant="150" id="v1O-DB-5Nn"/>
                                 </constraints>
+                                <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="nextButtonTapped:" destination="01J-lp-oVM" eventType="touchUpInside" id="xsA-r4-Fvk"/>
+                                    <action selector="nextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SRx-Ue-lJt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKt-s2-i2V">
-                                <rect key="frame" x="186" y="99" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="yg7-tc-4tH">
+                                <rect key="frame" x="107" y="347" width="200" height="202"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAb-Fp-4zY">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="D3V-2v-Rfr"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="EIo-Ks-VyP"/>
+                                        </constraints>
+                                        <state key="normal" title="Rock">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="GenreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dXC-k2-SUY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFB-x0-aIg">
+                                        <rect key="frame" x="0.0" y="71" width="200" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="jNv-6X-t4H"/>
+                                        </constraints>
+                                        <state key="normal" title="Hip-Hop/Rap">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="GenreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JbR-Y9-OsW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfX-bT-OpO">
+                                        <rect key="frame" x="0.0" y="142" width="200" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="DdN-fC-jHQ"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="wPy-Qz-dlu"/>
+                                        </constraints>
+                                        <state key="normal" title="Comedy">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="GenreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uvm-eR-xLQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="nXg-vr-Xwm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="8hx-B5-ahJ"/>
-                            <constraint firstItem="nXg-vr-Xwm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="Xoj-ss-icc"/>
-                            <constraint firstItem="nXg-vr-Xwm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="blO-mr-GmC"/>
-                            <constraint firstItem="aYu-Xt-v4X" firstAttribute="trailing" secondItem="nXg-vr-Xwm" secondAttribute="trailing" id="fXy-ZH-esU"/>
-                            <constraint firstItem="VVd-6s-v6s" firstAttribute="top" secondItem="nXg-vr-Xwm" secondAttribute="bottom" constant="64" id="jkN-Zo-PoT"/>
-                            <constraint firstItem="nXg-vr-Xwm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kLa-EW-VZk"/>
-                            <constraint firstItem="VVd-6s-v6s" firstAttribute="leading" secondItem="nXg-vr-Xwm" secondAttribute="leading" id="lLN-OS-UlU"/>
-                            <constraint firstItem="aYu-Xt-v4X" firstAttribute="top" secondItem="nXg-vr-Xwm" secondAttribute="bottom" constant="64" id="vjt-gK-TI8"/>
-                            <constraint firstItem="VVd-6s-v6s" firstAttribute="centerY" secondItem="aYu-Xt-v4X" secondAttribute="centerY" id="z7Y-Th-M8g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ndJ-p4-HCf" secondAttribute="trailing" constant="43" id="3EM-Ge-b0p"/>
+                            <constraint firstItem="yg7-tc-4tH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5C3-1t-0Iv"/>
+                            <constraint firstItem="ndJ-p4-HCf" firstAttribute="leading" secondItem="jfX-bT-OpO" secondAttribute="leading" id="Dbq-5I-Kx8"/>
+                            <constraint firstItem="ndJ-p4-HCf" firstAttribute="baseline" secondItem="MzY-eI-56Z" secondAttribute="baseline" id="Qh7-es-wEa"/>
+                            <constraint firstItem="MzY-eI-56Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="UVS-aM-z3R"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ndJ-p4-HCf" secondAttribute="trailing" constant="23" id="V8b-bp-9iA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ndJ-p4-HCf" secondAttribute="trailing" constant="23" id="VYg-fM-mkS"/>
+                            <constraint firstItem="ndJ-p4-HCf" firstAttribute="leading" secondItem="MzY-eI-56Z" secondAttribute="trailing" constant="48" id="cdt-o3-Tjf"/>
+                            <constraint firstItem="yg7-tc-4tH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dor-xX-6NI"/>
+                            <constraint firstItem="ndJ-p4-HCf" firstAttribute="leading" secondItem="MzY-eI-56Z" secondAttribute="trailing" constant="48" id="hx2-a3-hjM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MzY-eI-56Z" secondAttribute="bottom" constant="162" id="iDA-SA-hoZ"/>
+                            <constraint firstItem="ndJ-p4-HCf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="543" id="zUr-xq-aeb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3EM-Ge-b0p"/>
+                                <exclude reference="5C3-1t-0Iv"/>
+                                <exclude reference="zUr-xq-aeb"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="139" y="127"/>
         </scene>
     </scenes>
 </document>

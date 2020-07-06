@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  musicShuffler
+//  otherMusicShuffler
 //
-//  Created by James Pericles II on 7/4/20.
+//  Created by James Pericles II on 7/6/20.
 //  Copyright © 2020 James Pericles II. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-var window: UIWindow?
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
