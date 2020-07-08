@@ -1,0 +1,1 @@
+This was a very simple project to help myself learn Swift. The user is offered up three genre buttons, a stop button, and a skip button. Clicking on any of the genre buttons will play a random song from their music library that matches that genre. Stop and next function as expected.
